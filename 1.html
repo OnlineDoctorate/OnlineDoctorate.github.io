@@ -18,13 +18,14 @@ body{
 
 }
 
-p    {
-      margin:0;
-      }
+p {
+  margin: 0;
+}
 
     
 img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
     
 a:visited{
@@ -66,21 +67,18 @@ a:visited{
 
 .info_link{
     position: absolute;
-    top: 20%;
-    left: 60%;
+    top: 0;
+    right: -50px;
 }
 
 
 .content{
     position: absolute;
-    top: 20%;
+    top: 150px;
     left: 8%;
-
-    width: 50%;
-
+    width: 60%;
     margin-bottom: 10px;
-    
-    }
+}
 
 #work:hover {color: green;}
 
@@ -120,17 +118,18 @@ a:visited{
          <img class="link-stamp" src="theme/FullSizeRender.jpeg" height="604" width="806">
       </a>
     </p> 
+
+
+
+    <div class="info_link">  
+        <p style="text-indent: 2em;">
+          <a href="1_info.html">
+            <img class="link-stamp" src="theme/info.png" height="42" width="42">
+          </a>
+        </p>    
+    </div>
+    
 </div>
-
-
-<div class="info_link">  
-<p style="text-indent: 2em;">
-  <a href="1_info.html">
-    <img class="link-stamp" src="theme/info.png" height="42" width="42">
-    </a>
-</p>    
-</div>
-
 
 </body>
 </html>
